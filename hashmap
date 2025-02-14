@@ -1,0 +1,41 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+         HashMap<String,String>map = new HashMap<>();
+        
+        map.put ("TN","Tamilnadu");
+        map.put("KA","Karnataka");
+        map.put("KL","Kerala");
+        
+        System.out.println(map.get("TN"));
+        System.out.println(map.get("KA"));
+        System.out.println(map.getOrDefault("AP","NOT found"));                        
+        
+        
+        
+        
+        
+        map.remove("KL");
+    }
+}import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+         HashMap<String,String>map = new HashMap<>();
+        
+        map.put ("TN","Tamilnadu");
+        map.put("KA","Karnataka");
+        map.put("KL","Kerala");
+        
+        System.out.println(map.get("TN"));
+        System.out.println(map.get("KA"));
+        System.out.println(map.getOrDefault("AP","NOT found"));                        
+        
+        
+        
+        
+        
+        map.remove("KL");
+    }
+}
